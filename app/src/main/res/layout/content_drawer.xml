@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="net.agnusvox.lydl1.DrawerActivity"
+    tools:showIn="@layout/app_bar_drawer">
+
+
+    <TextView
+        android:text="@string/avail_programs"
+        android:textSize="@dimen/TextSize1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/avail_programs"
+        android:text="0"
+        android:textSize="@dimen/TextSize1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:text="@string/liked_programs"
+        android:textSize="22sp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/liked_programs"
+        android:text="0"
+        android:textSize="@dimen/TextSize1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:text="@string/last_message"
+        android:textSize="@dimen/TextSize1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="100dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/message_line1"
+        android:text="@string/message_pending"
+        android:textSize="@dimen/TextSize1"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="100dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/path_first_storage"
+        android:text="@string/path_first_storage"
+        android:textSize="@dimen/TextSize1"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="100dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/path_second_storage"
+        android:text="@string/path_second_storage"
+        android:textSize="@dimen/TextSize1"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="100dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+</LinearLayout>

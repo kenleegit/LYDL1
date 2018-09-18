@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">爱下载</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设定</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="debug_info_title">参考资料</string> <!--on DrawerActivity-->
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">一般</string>
+
+    <string name="pref_use_tf_card">使用TF卡（如有）</string>
+    <!--
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>-->
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="import_programs">更新节目列表</string>
+    <string name="import_audios">更新声档列表</string>
+    <string name="get_one_audio">下载一个声档</string>
+    <string name="settings">设定</string>
+    <string name="start_scheduler">启动背境下载</string>
+    <string name="stop_scheduler">停止背境下载</string>
+    <string name="yeslike">订阅</string>
+    <string name="notlike">不订阅</string>
+    <string name="avail_programs">可供订阅节目数：</string>
+    <string name="liked_programs">已订阅节目数：</string>
+    <string name="last_message">最新下载结果：</string>
+    <string name="message_pending">未有新信息</string>
+    <string name="path_first_storage">第一储存路径</string>
+    <string name="path_second_storage">第二储存路径</string>
+    <string name="one_downloaded">一个下载完成</string>
+
+    <!--2017-10-21 Show state of background service-->
+    <string name="BgServiceStopped">背境下载已停止</string>
+    <string name="BgServiceStarted">背境下载运行中</string>
+</resources>
